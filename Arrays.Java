@@ -18,5 +18,10 @@ class Main {
         
         System.out.println(Arrays.toString(ch)); //to print the char arryay 
 
+        // Array methods to play with type of Arrays data.
+        // int[] array = {1,2,5,6,7,3,4}; || char[] c_array = {e,l,i,y,a,z}; 
+        // 1. asList(array), 2. equals(array), 3. hashCode(array), 4. Sort(array), 5. toString(array), 6. toString(c_array), 7. toCharArray()
+        // some other methods, * fill(), * copiedArray(), * copyOfRange(), etc,.
+
     }
 }
