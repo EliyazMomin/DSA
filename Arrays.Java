@@ -23,5 +23,9 @@ class Main {
         // 1. asList(array), 2. equals(array), 3. hashCode(array), 4. Sort(array), 5. toString(array), 6. toString(c_array), 7. toCharArray()
         // some other methods, * fill(), * copiedArray(), * copyOfRange(), etc,.
 
+         List<String> Strch = Arrays.asList(str);  // line 17: converting String to list array
+         System.out.println(Strch); //to print the String list arryay 
+
+
     }
 }
