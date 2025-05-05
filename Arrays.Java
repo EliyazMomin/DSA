@@ -30,6 +30,8 @@ class Main {
         char[] arr3 = {'e', 'l', 'i', 'y', 'a', 's'};
         System.out.println("Equal method returns:   " + Arrays.equals(arr1,arr2)); // if equals the return true
         System.out.println("Equal method returns:   " + Arrays.equals(arr1,arr3));//if not equals the return false
+        String string = new String(arr1); // Converting char array as String.
+        System.out.println("char array conert as string:  " + string); //to print the String  
 
 
     }
