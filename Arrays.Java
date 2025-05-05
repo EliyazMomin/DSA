@@ -15,16 +15,21 @@ class Main {
         String str = "Welcome to the Eliyaz World"; // String Variable 
         
         char[] ch = str.toCharArray(); //Converting the string to char Array
-        
-        System.out.println(Arrays.toString(ch)); //to print the char arryay 
 
         // Array methods to play with type of Arrays data.
         // int[] array = {1,2,5,6,7,3,4}; || char[] c_array = {e,l,i,y,a,z}; 
         // 1. asList(array), 2. equals(array), 3. hashCode(array), 4. Sort(array), 5. toString(array), 6. toString(c_array), 7. toCharArray()
         // some other methods, * fill(), * copiedArray(), * copyOfRange(), etc,.
 
-         List<String> Strch = Arrays.asList(str);  // line 17: converting String to list array
-         System.out.println(Strch); //to print the String list arryay 
+        System.out.println( "String conert as char Array:  " + Arrays.toString(ch)); //to print the char arryay 
+        List<String> Strch = Arrays.asList(str);  // line 17: converting String to list array
+        System.out.println("String array conert as List:  " + Strch); //to print the String list arryay 
+        
+        char[] arr1 = {'e', 'l', 'i', 'y', 'a', 'z'};
+        char[] arr2 = {'e', 'l', 'i', 'y', 'a', 'z'};
+        char[] arr3 = {'e', 'l', 'i', 'y', 'a', 's'};
+        System.out.println("Equal method returns:   " + Arrays.equals(arr1,arr2)); // if equals the return true
+        System.out.println("Equal method returns:   " + Arrays.equals(arr1,arr3));//if not equals the return false
 
 
     }
